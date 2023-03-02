@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <!-- FontAwesome -->
     <link
       rel="stylesheet"
@@ -14,71 +21,71 @@
     <title>Ultimate Converter</title>
   </head>
   <body>
-    <h1>Converter</h1>
+    <div class="main-container">
+      <h1>Converter</h1>
+      <div class="temperature container">
+        <h2>Temperature</h2>
+        <div id="celcius">
+          <input type="number" name="" placeholder="Celcius..." />
+          <span class="icon">&#8451;</span>
+        </div>
+        <div id="fahrenheit">
+          <input type="number" name="" placeholder="Fahrenheit..." />
+          <span class="icon">&#8457;</span>
+        </div>
+        <button id="button">Clear</button>
+      </div>
 
-    <div class="temperature container">
-      <h2>Temperature</h2>
-      <div id="celcius">
-        <input type="number" name="" placeholder="Celcius..." />
-        <span class="icon">&#8451;</span>
+      <div class="length container">
+        <h2>Length</h2>
+        <div id="kilometer">
+          <input type="number" name="" placeholder="Kilometres..." />
+          <span class="icon">Kilometers</span>
+        </div>
+        <div id="meter">
+          <input type="number" name="" placeholder="Metres..." />
+          <span class="icon">Metres</span>
+        </div>
+        <div id="centimeter">
+          <input type="number" name="" placeholder="Centimeter..." />
+          <span class="icon">Centimetres</span>
+        </div>
+        <div id="mile">
+          <input type="number" name="" placeholder="Miles..." />
+          <span class="icon">Miles</span>
+        </div>
+        <div id="feet">
+          <input type="number" name="" placeholder="Feet..." />
+          <span class="icon">Foot</span>
+        </div>
+        <div id="inch">
+          <input type="number" name="" placeholder="Inches..." />
+          <span class="icon">Inches</span>
+        </div>
+        <button id="button">Clear</button>
       </div>
-      <div id="fahrenheit">
-        <input type="number" name="" placeholder="Fahrenheit..." />
-        <span class="icon">&#8457;</span>
+
+      <div class="temperature container">
+        <h2>Weight</h2>
+        <div id="kilogram">
+          <input type="number" name="" placeholder="Kilograms..." />
+          <span class="icon">Kilograms</span>
+        </div>
+        <div id="gram">
+          <input type="number" name="" placeholder="Grams..." />
+          <span class="icon">Grams</span>
+        </div>
+        <div id="pound">
+          <input type="number" name="" placeholder="Pounds..." />
+          <span class="icon">Pounds</span>
+        </div>
+        <div id="ounce">
+          <input type="number" name="" placeholder="Ounces..." />
+          <span class="icon">Ounces</span>
+        </div>
+        <button id="button">Clear</button>
       </div>
-      <button id="button">Clear</button>
     </div>
-
-    <div class="length container">
-      <h2>Length</h2>
-      <div id="kilometer">
-        <input type="number" name="" placeholder="Kilometers..." />
-        <span class="icon">km</span>
-      </div>
-      <div id="meter">
-        <input type="number" name="" placeholder="Meters..." />
-        <span class="icon">m</span>
-      </div>
-      <div id="centimeter">
-        <input type="number" name="" placeholder="Centimeter..." />
-        <span class="icon">cm</span>
-      </div>
-      <div id="mile">
-        <input type="number" name="" placeholder="Miles..." />
-        <span class="icon">mile</span>
-      </div>
-      <div id="feet">
-        <input type="number" name="" placeholder="Feet..." />
-        <span class="icon">ft</span>
-      </div>
-      <div id="inch">
-        <input type="number" name="" placeholder="Inches..." />
-        <span class="icon">in</span>
-      </div>
-      <button id="button">Clear</button>
-    </div>
-
-    <div class="temperature container">
-      <h2>Weight</h2>
-      <div id="kilogram">
-        <input type="number" name="" placeholder="Kilograms..." />
-        <span class="icon">kg</span>
-      </div>
-      <div id="gram">
-        <input type="number" name="" placeholder="Grams..." />
-        <span class="icon">g</span>
-      </div>
-      <div id="pound">
-        <input type="number" name="" placeholder="Pounds..." />
-        <span class="icon">lb</span>
-      </div>
-      <div id="ounce">
-        <input type="number" name="" placeholder="Ounces..." />
-        <span class="icon">oz</span>
-      </div>
-      <button id="button">Clear</button>
-    </div>
-
     <script src="app.js"></script>
   </body>
 </html>

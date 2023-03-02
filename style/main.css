@@ -1,1 +1,53 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", cursive;
+}
+
+body {
+  background: #ccd5ae;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: inline-block;
+  flex-direction: column;
+  margin: auto;
+  padding: 0.5rem auto;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.container {
+  margin: 1rem;
+}
+.container h2 {
+  margin: 1rem 0;
+}
+.container input {
+  padding: 0.3rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #d4a373;
+  border-radius: 5px;
+  background-color: #fefae0;
+}
+.container span {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+.container button {
+  padding: 0.3rem;
+  border: 1px solid #d4a373;
+  border-radius: 5px;
+  width: 40%;
+  font-weight: bold;
+  background-color: #fefae0;
+}/*# sourceMappingURL=main.css.map */
