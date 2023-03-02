@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lobster", cursive;
+  letter-spacing: 1.5px;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 }
 
 h1 {
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding: 0 1rem;
   text-align: center;
   font-size: 3rem;
@@ -40,6 +41,7 @@ h1 {
   border-radius: 5px;
   background-color: #fefae0;
   font-size: 1.2rem;
+  width: 60%;
 }
 .container span {
   font-style: italic;
@@ -51,6 +53,6 @@ h1 {
   border-radius: 5px;
   width: 40%;
   font-weight: bold;
-  background-color: #fefae0;
+  background-color: #d4a373;
   font-size: 1.2rem;
 }/*# sourceMappingURL=main.css.map */
