@@ -1,3 +1,4 @@
+@import "_media";
 $primary-colour: #d4a373;
 $secondary-colour: #ccd5ae;
 $secondary-colour-light: #fefae0;
@@ -11,20 +12,23 @@ $secondary-colour-light: #fefae0;
     color: black;
     text-decoration: none;
   }
+  button {
+    cursor: pointer;
+  }
 }
-button {
-  cursor: pointer;
+body {
 }
-.info {
-  font-size: 1.5rem;
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
+.body {
+  background: $secondary-colour;
+  display: flex;
+  flex-direction: column;
 }
+
 .info-container {
   margin: 5rem 1rem;
+  padding: 2rem;
   p {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 0.8rem;
     margin: 1.3rem 0;
     font-weight: bold;
@@ -36,22 +40,23 @@ button {
     font-style: italic;
   }
 }
-.home {
+.home-btn {
   position: absolute;
   top: 0.8rem;
   left: 0.8rem;
   font-weight: bold;
-  font-size: 1.2rem;
-  padding: 0.1rem 0.5rem;
+  font-size: 1.3rem;
+  padding: 0.3rem 0.7rem;
   background-color: $primary-colour;
   border-radius: 15px;
 }
-body {
-  background: $secondary-colour;
-  display: flex;
-  flex-direction: column;
+.info {
+  align-self: flex-end;
+  font-size: 1.5rem;
+  position: relative;
+  top: 0.5rem;
+  right: 0.5rem;
 }
-
 .main-container {
   display: flex;
   flex-direction: column;
@@ -66,12 +71,12 @@ body {
     font-size: 3rem;
   }
   .container {
-    margin: 1rem;
+    margin: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     h2 {
-      margin: 2rem 0 1rem 0;
+      margin: 1rem 0 1rem 0;
       font-size: 1.7rem;
     }
     .item {
