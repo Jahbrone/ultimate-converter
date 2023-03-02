@@ -12,6 +12,9 @@ $secondary-colour-light: #fefae0;
     text-decoration: none;
   }
 }
+button {
+  cursor: pointer;
+}
 .info {
   font-size: 1.5rem;
   position: absolute;
@@ -97,7 +100,7 @@ body {
     button {
       padding: 0.3rem;
       border: 1px solid $primary-colour;
-      border-radius: 5px;
+      border-radius: 15px;
       width: 40%;
       font-weight: bold;
       background-color: $primary-colour;
