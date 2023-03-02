@@ -1,6 +1,8 @@
 const celciusInput = document.querySelector("#celcius > input");
 const fahrenheitInput = document.querySelector("#fahrenheit > input");
-const btn = document.querySelector("#button");
+const btn1 = document.getElementById("button1");
+const btn2 = document.getElementById("button2");
+const btn3 = document.getElementById("button3");
 
 function roundNumber(number) {
   return Math.round(number * 100) / 100;
@@ -186,15 +188,21 @@ ounceInput.addEventListener("input", function () {
 //
 //
 //----------------Clear-Btn------
-btn.addEventListener("click", () => {
+btn1.addEventListener("click", function () {
   celciusInput.value = "";
   fahrenheitInput.value = "";
+});
+
+btn2.addEventListener("click", function () {
   kilometerInput.value = "";
   meterInput.value = "";
   centimeterInput.value = "";
   mileInput.value = "";
   feetInput.value = "";
   inchInput.value = "";
+});
+
+btn3.addEventListener("click", function () {
   kilogramInput.value = "";
   gramInput.value = "";
   ounceInput.value = "";
