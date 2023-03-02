@@ -5,6 +5,44 @@
   font-family: "Lobster", cursive;
   letter-spacing: 1.5px;
 }
+* a {
+  color: black;
+  text-decoration: none;
+}
+
+.info {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.info-container {
+  margin: 5rem 1rem;
+}
+.info-container p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+.info-container .copy {
+  font-size: 0.6rem;
+}
+.info-container .icon-credit {
+  font-style: italic;
+}
+
+.home {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.1rem 0.5rem;
+  background-color: #d4a373;
+  border-radius: 15px;
+}
 
 body {
   background: #ccd5ae;

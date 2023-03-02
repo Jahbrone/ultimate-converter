@@ -7,8 +7,42 @@ $secondary-colour-light: #fefae0;
   box-sizing: border-box;
   font-family: "Lobster", cursive;
   letter-spacing: 1.5px;
+  a {
+    color: black;
+    text-decoration: none;
+  }
 }
-
+.info {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.info-container {
+  margin: 5rem 1rem;
+  p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+  }
+  .copy {
+    font-size: 0.6rem;
+  }
+  .icon-credit {
+    font-style: italic;
+  }
+}
+.home {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.1rem 0.5rem;
+  background-color: $primary-colour;
+  border-radius: 15px;
+}
 body {
   background: $secondary-colour;
   display: flex;
