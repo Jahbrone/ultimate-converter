@@ -20,12 +20,13 @@ $secondary-colour-light: #fefae0;
   right: 0.5rem;
 }
 .info-container {
-  margin: 5rem 1rem;
+  margin: 20vh 1rem;
   p {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Source Code Pro", monospace;
     font-size: 0.8rem;
-    margin: 1.3rem 0;
+    margin: 1rem 0;
     font-weight: bold;
+    letter-spacing: 0.1px;
   }
   .copy {
     font-size: 0.6rem;
@@ -67,26 +68,34 @@ body {
 
 .container {
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
   h2 {
     margin: 2rem 0 1rem 0;
     font-size: 1.7rem;
   }
-  input {
-    padding: 0.3rem;
+  .wrapper {
     margin-bottom: 0.7rem;
-    border: 1px solid $primary-colour;
+    background-color: $primary-colour;
     border-radius: 5px;
-    background-color: $secondary-colour-light;
-    font-size: 1.2rem;
-    width: 60%;
+    input {
+      padding: 0.3rem;
+      border: 1px solid $primary-colour;
+      border-radius: 5px 0 0 5px;
+      background-color: $secondary-colour-light;
+      font-size: 1.2rem;
+    }
+    span {
+      color: rgba(0, 0, 0, 0.747);
+      padding: 0.4rem 0.5rem;
+      font-style: italic;
+      font-size: 1rem;
+      background-color: $primary-colour;
+    }
   }
-  span {
-    color: rgba(0, 0, 0, 0.747);
-    font-style: italic;
-    margin-left: 5px;
-    font-size: 1rem;
-  }
+
   button {
+    align-self: flex-end;
     padding: 0.3rem;
     border: 1px solid $primary-colour;
     border-radius: 5px;
@@ -95,5 +104,6 @@ body {
     background-color: $primary-colour;
     font-size: 1.2rem;
     cursor: pointer;
+    width: 90px;
   }
 }
